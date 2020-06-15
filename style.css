@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Canela Light';
+  src: url(font/Canela-Light.otf);
+}
+
+body{
+    margin: 0;
+    font-family: 'Canela Light';
+}
+
+#projects{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 4vw;
+}
+
+#txt1{
+    position: fixed;
+    top: 30%;
+    left: 20%;
+    font-size: 4vw;
+    z-index: 0;
+}
+
+#txt2{
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    font-size: 4vw;
+    z-index: 0;
+}
+
+#project1:hover #img1 {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    z-index: 1;
+}
+
+#project1:hover #bg1 {
+    display: block;
+    position: fixed;
+    top 0;
+    left: 0;
+    z-index: -1;
+}
+
+#project2:hover #img2 {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 1;
+}
+
+#project2:hover #bg2 {
+    display: block;
+    top 0;
+    left: 0;
+    z-index: -1;
+}
+
+#img1{
+    height: auto;
+    width: 40%;
+    display: none;
+    
+}
+
+#img2{
+    height: auto;
+    width: 40%;
+    display: none;
+    
+}
+
+#bg1{
+    position: fixed;
+    display: none;
+}
+
+#bg2{
+    position: fixed;
+    display: none;
+}
+
+
+#footer{
+    
+}
+
+#footerLeft{
+    position: absolute;
+    top: 95%;
+    left: 5%;
+    font-size: 1vw;
+}
+
+#footerRight{
+    position: absolute;
+    top: 95%;
+    left: 90%;
+    font-size:2vw;
+}
