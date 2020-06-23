@@ -12,7 +12,7 @@ body{
 #txt1{
     position: fixed;
     top: 30%;
-    left: 15%;
+    left: 25%;
     font-size: 4vw;
     z-index: 0;
 }
@@ -20,7 +20,7 @@ body{
 #txt12{
     position: fixed;
     top: 33%;
-    left: 49%;
+    left: 59%;
     font-size: 2vw;
     z-index: 0;
 }
@@ -28,7 +28,7 @@ body{
 #txt2{
     position: fixed;
     top: 50%;
-    left: 30%;
+    left: 25%;
     font-size: 4vw;
     z-index: 0;
 }
@@ -36,7 +36,7 @@ body{
 #txt22{
     position: fixed;
     top: 53%;
-    left: 53%;
+    left: 48%;
     font-size: 2vw;
     z-index: 0;
 }
@@ -80,8 +80,9 @@ body{
 }
 
 #img2{
+    position: absolute;
     height: auto;
-    width: 40%;
+    width: 30%;
     display: none;
     
 }
@@ -89,11 +90,19 @@ body{
 #bg1{
     position: fixed;
     display: none;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 #bg2{
     position: fixed;
     display: none;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 

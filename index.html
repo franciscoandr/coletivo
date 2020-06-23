@@ -3,6 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <title>Coletivo</title>
     </head>
     <body>
@@ -16,7 +17,7 @@
          <div id="project2">
              <span id="txt2">Post-Internet. </span>
              <span id="txt22">Production. Post Production. Reproduction. </span>
-             <img id="img2" src="img/imagemProjeto2.gif">
+             <img id="img2" src="img/img1.gif">
              <img id="bg2" src="img/bg2.png">
         </div>
         
@@ -28,5 +29,20 @@
                 about
             </div>
         </div>
+        <script>
+            $(document).ready(function(){
+                $(document).mousemove(function(e){
+                    $('#img1').css('left',e.pageX+"px");
+                    $('#img1').css('top',e.pageY+"px");
+                });
+            });
+            
+            $(document).ready(function(){
+                $(document).mousemove(function(e){
+                    $('#img2').css('left',e.pageX+"px");
+                    $('#img2').css('top',e.pageY+"px");
+                });
+            });
+        </script>
     </body>
 </html>
