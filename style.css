@@ -1,125 +1,85 @@
 @font-face {
-  font-family: 'Canela Light';
-  src: url(font/Canela-Light.otf);
+  font-family: 'StolzlDisplay';
+  src: url("fonts/StolzlDisplay-Normal.otf");
+}
+
+@font-face {
+  font-family: 'ArnoPro';
+  src: url("fonts/ArnoPro-Regular.otf");
 }
 
 body{
-    margin: 0;
-    font-family: 'Canela Light';
+  margin: 0;
+  font-family: 'StolzlDisplay';
+  background-color: yellow;
 }
 
-
-#txt1{
-    position: fixed;
-    top: 30%;
-    left: 25%;
-    font-size: 4vw;
-    z-index: 0;
+#about{
+  font-family: 'StolzlDisplay';
+  background-color: black;
+  color: yellow;
+  font-size: 5em;
 }
 
-#txt12{
-    position: fixed;
-    top: 33%;
-    left: 59%;
-    font-size: 2vw;
-    z-index: 0;
+#aboutTxt{
+  font-size: 5em;
 }
 
-#txt2{
-    position: fixed;
-    top: 50%;
-    left: 25%;
-    font-size: 4vw;
-    z-index: 0;
+#main{
+  font-size: 5em;
 }
 
-#txt22{
-    position: fixed;
-    top: 53%;
-    left: 48%;
-    font-size: 2vw;
-    z-index: 0;
+#cursor {
+  margin: 0;
+  width: 15%;
 }
 
-#project1:hover #img1 {
+#project1:hover{
+    position: relative;
+}
+#project1:hover:after{
+    content: url(img/ItsJustTheInternet);
     display: block;
-    position: absolute;
-    top: 10%;
-    left: 40%;
+    position: fixed;
     z-index: 1;
+    left: -20%;
+    top: -50%;
+    transform: scale(.3);
 }
 
-#project1:hover #bg1 {
+#project2:hover{
+    position: relative;
+}
+#project2:hover:after{
+    content: url(img/imagemcapa2.gif);
     display: block;
     position: fixed;
-    top 0;
-    left: 0;
-    z-index: -1;
-}
-
-#project2:hover #img2 {
-    display: block;
-    position: absolute;
-    top: 40%;
-    left: 40%;
     z-index: 1;
+    left: 40%;
+    top: 20%;
+    transform: scale(.8);
 }
 
-#project2:hover #bg2 {
-    display: block;
-    top 0;
-    left: 0;
-    z-index: -1;
+/* unvisited link */
+a:link {
+  color: blue;
+  text-decoration: none;
 }
 
-#img1{
-    height: auto;
-    width: 40%;
-    display: none;
-    
+/* visited link */
+a:visited {
+  color: blue;
+  text-decoration: none;
 }
 
-#img2{
-    position: absolute;
-    height: auto;
-    width: 30%;
-    display: none;
-    
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: none;
 }
 
-#bg1{
-    position: fixed;
-    display: none;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#bg2{
-    position: fixed;
-    display: none;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-
-#footer{
-    
-}
-
-#footerLeft{
-    position: absolute;
-    top: 95%;
-    left: 5%;
-    font-size: 1vw;
-}
-
-#footerRight{
-    position: absolute;
-    top: 95%;
-    left: 90%;
-    font-size:2vw;
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
 }

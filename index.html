@@ -1,48 +1,22 @@
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <title>Coletivo</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Coletivo</title>
     </head>
     <body>
-        
-        <div id="project1">
-            <span id="txt1">It’s Just The Internet!</span>
-            <span id="txt12">Journey Through Google Earth.</span>
-            <img id="img1" src="img/Imagem_Projeto.gif">
-            <img id="bg1" src="img/bg1.png">
-        </div>
-         <div id="project2">
-             <span id="txt2">Post-Internet. </span>
-             <span id="txt22">Production. Post Production. Reproduction. </span>
-             <img id="img2" src="img/img1.gif">
-             <img id="bg2" src="img/bg2.png">
-        </div>
-        
-        <div id="footer">
-            <div id="footerLeft">
-                Apropriação - Pós-Internet - Pós-digital - Web-To-Print
-            </div>
-            <div id="footerRight">
-                about
-            </div>
-        </div>
-        <script>
-            $(document).ready(function(){
-                $(document).mousemove(function(e){
-                    $('#img1').css('left',e.pageX+"px");
-                    $('#img1').css('top',e.pageY+"px");
-                });
-            });
-            
-            $(document).ready(function(){
-                $(document).mousemove(function(e){
-                    $('#img2').css('left',e.pageX+"px");
-                    $('#img2').css('top',e.pageY+"px");
-                });
-            });
-        </script>
+      <!--<img id ="cursor" src="img/cursor.png">-->
+
+      <div id="main">
+          <p>As it is expected culture changes along with technology,
+            and today, the ubiquity of <a id="project1" href="#">internet
+            technology</a> has re-invented the way we perceive and thus, the
+            way we go about art-making. <a id="project2" href="#">Using web
+            content</a> and internet technology in contemporary
+            internet art - <a href="about.html">post internet art</a> - becomes an
+            organic behaviour within the wider context of internet culture.</p>
+      </div>
     </body>
+    <script src="script.js"></script>
 </html>
