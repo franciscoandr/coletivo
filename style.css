@@ -9,7 +9,7 @@
 }
 
 body{
-  background-image: url(img/bg.jpg);
+  background-image: url(img/bg2.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -73,24 +73,24 @@ A}
 
 /* unvisited link */
 a:link {
-  color: yellow;
+  color: blue;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: yellow;
+  color: blue;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: yellow;
+  color: blue;
   text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: yellow;
+  color: blue;
   text-decoration: none;
 }
