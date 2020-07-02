@@ -9,9 +9,14 @@
 }
 
 body{
+  background-image: url(img/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000;
   margin: 0;
   font-family: 'StolzlDisplay';
-  background-color: yellow;
 }
 
 #about{
@@ -37,7 +42,9 @@ body{
 #project1:hover{
     position: relative;
 }
-#project1:hover:after{
+
+@media (min-width: 1200px)  {
+  #project1:hover:after{
     content: url(img/ItsJustTheInternet);
     display: block;
     position: fixed;
@@ -45,12 +52,15 @@ body{
     left: -20%;
     top: -50%;
     transform: scale(.3);
+  }
 }
 
 #project2:hover{
     position: relative;
 }
-#project2:hover:after{
+
+@media (min-width: 1200px)  {
+  #project2:hover:after{
     content: url(img/imagemcapa2.gif);
     display: block;
     position: fixed;
@@ -58,28 +68,29 @@ body{
     left: 40%;
     top: 20%;
     transform: scale(.8);
-}
+  }
+A}
 
 /* unvisited link */
 a:link {
-  color: blue;
+  color: yellow;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: blue;
+  color: yellow;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: blue;
+  color: yellow;
   text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: yellow;
   text-decoration: none;
 }
